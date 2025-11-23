@@ -6,7 +6,7 @@ namespace Tyuiu.MinullinDF.Sprint5.Task3.V1.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            double y = Math.Round((Math.Pow(x, 3) - 8)/2*Math.Pow(x, 2), 3);
+            double y = Math.Round((Math.Pow(x, 3) - 8)/(2*Math.Pow(x, 2)), 3);
             string path1 = Path.GetTempPath();
             string path2 = "OutPutFileTask3.bin";
             string path = Path.Combine(path1, path2);
