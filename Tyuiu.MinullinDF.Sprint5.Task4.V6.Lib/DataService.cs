@@ -11,7 +11,7 @@ namespace Tyuiu.MinullinDF.Sprint5.Task4.V6.Lib
             Console.WriteLine(strX);
             double x = Convert.ToDouble(strX);
             double y = 1.0 / Math.Cos(x) + 2.2*Math.Pow(x, 2);
-            return Math.Round(y);
+            return Math.Round(y, 3);
         }
     }
 }
