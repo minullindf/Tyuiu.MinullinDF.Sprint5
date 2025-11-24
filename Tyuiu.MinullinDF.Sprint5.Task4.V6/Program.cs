@@ -5,6 +5,7 @@ internal class Program
     {
         DataService ds = new DataService();
         string path = Path.Combine(Path.GetTempPath(), "InPutDataFileTask4V6.txt");
+        //string path = $@"C:\DataSprint5\InPutDataFileTask4V6.txt";
         Console.WriteLine("****************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
         Console.WriteLine("****************************************************************************");
