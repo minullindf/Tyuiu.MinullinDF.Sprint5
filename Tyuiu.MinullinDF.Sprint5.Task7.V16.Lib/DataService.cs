@@ -6,8 +6,8 @@ namespace Tyuiu.MinullinDF.Sprint5.Task7.V16.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            //string pathSaveFile = Path.Combine(Path.GetTempPath(), "InPutDataFileTask7V16.txt");
-            string pathSaveFile = $@"C:\DataSprint5\OutPutDataFileTask7V16.txt";
+            string pathSaveFile = Path.Combine(Path.GetTempPath(), "InPutDataFileTask7V16.txt");
+            //string pathSaveFile = $@"C:\DataSprint5\OutPutDataFileTask7V16.txt";
             FileInfo fileInfo = new FileInfo(pathSaveFile);
 
             if (fileInfo.Exists) { File.Delete(pathSaveFile); }
